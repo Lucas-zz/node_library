@@ -1,8 +1,9 @@
 {
   "name": "node_library",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/Lucas-zz/node_library/issues"
   },
-  "homepage": "https://github.com/Lucas-zz/node_library#readme"
+  "homepage": "https://github.com/Lucas-zz/node_library#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
